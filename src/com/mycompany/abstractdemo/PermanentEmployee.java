@@ -18,4 +18,5 @@ public class PermanentEmployee extends Employee{
 
         return netSalary;
     }
+
 }
