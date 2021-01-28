@@ -8,7 +8,7 @@ package com.mycompany.polymorphismdemo;
  */
 public class Area {
 
-    // number of parameters vary than its an overloaded function
+    // 1.number of parameters vary than its an overloaded function
     // data type of parameters vary than its an overloaded function
     public double calculateArea(double radius){
         return (3.14 * radius *radius);
