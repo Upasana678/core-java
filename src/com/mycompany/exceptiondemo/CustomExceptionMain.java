@@ -24,7 +24,7 @@ public class CustomExceptionMain {
             //Program will skip the line after 23 because InvalidAgeException gets thrown inside validate()
             //It looks for the matching catch block otherwise looks for the general exception block and the program flow continues.
             //validate(14);
-            validate(20);
+            validate(10);
 
         } catch (InvalidAgeException e)
         {
