@@ -59,6 +59,7 @@ public class EmployeeDetailsMap {
                 case 5:
                     System.out.println("Enter the Employee Id you want to Update");
                     employeeID = sc.nextInt();
+                    String name = employeeDetails.get(employeeID);
                     int flag1 = 0;
                     sc.nextLine();
                     for (Map.Entry<Integer, String> m : employeeDetails.entrySet()) {
